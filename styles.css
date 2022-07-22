@@ -1,0 +1,78 @@
+body {
+  background-color: #E6D5B8;
+  text-align: center;
+}
+
+hr {
+  border-color: #1C2B2D;
+  border-style: dotted none none none;
+  border-width: 10px;
+  width: 50%;
+}
+
+h1 {
+  font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #1C2B2D;
+}
+
+h2 {
+  font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #1C2B2D;
+}
+
+h3 {
+  font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #1C2B2D;
+}
+
+p {
+  margin: 13px;
+  height: 50px;
+  font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 50px;
+  color: #E6D5B8;
+}
+
+p:hover{
+  line-height: 70px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  align-items: center;
+}
+
+.box {
+  background-color: #99A8B2;
+  border-radius: 1em;
+  margin: 10px;
+  width: 90%;
+  height: auto;
+  align-items: center;
+  box-shadow: 10px 10px 5px #6C757A;
+}
+
+.links {
+  align-items: center;
+  margin: 17px;
+}
+
+.link {
+  background-color: #1F6F8B;
+  border-radius: 1em;
+  box-shadow: 5px 5px 5px #174E60;
+  margin: 25px 10%;
+}
+
+.link:hover {
+  background-color: #1F6F8B;
+  margin: 35px 8%;
+  height: 70px;
+  font-size: 30px;
+}
