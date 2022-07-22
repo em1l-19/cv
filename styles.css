@@ -3,6 +3,10 @@ body {
   text-align: center;
 }
 
+div {
+  align-items: center;
+}
+
 hr {
   border-color: #1C2B2D;
   border-style: dotted none none none;
@@ -33,12 +37,26 @@ p {
   color: #E6D5B8;
 }
 
-p:hover{
+p:hover {
   line-height: 70px;
 }
 
 a {
   text-decoration: none;
+}
+
+iframe {
+  border-radius: 1em;
+}
+
+input {
+  border-radius: 1em;
+  border: none;
+}
+
+textarea {
+  border-radius: 1em;
+  border: none;
 }
 
 .main {
