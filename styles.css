@@ -1,3 +1,4 @@
+/****************************************TAG SELECTORS********************************/
 body {
   background-color: #E6D5B8;
   text-align: center;
@@ -5,6 +6,7 @@ body {
 
 div {
   align-items: center;
+
 }
 
 hr {
@@ -33,12 +35,8 @@ p {
   margin: 13px;
   height: 50px;
   font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
-  line-height: 50px;
-  color: #E6D5B8;
-}
 
-p:hover {
-  line-height: 70px;
+  color: #1C2B2D;
 }
 
 a {
@@ -59,6 +57,7 @@ textarea {
   border: none;
 }
 
+/****************************************CLASS SELECTORS********************************/
 .main {
   display: flex;
   flex-direction: column;
@@ -86,6 +85,7 @@ textarea {
   border-radius: 1em;
   box-shadow: 5px 5px 5px #174E60;
   margin: 25px 10%;
+  padding: 2px;
 }
 
 .link:hover {
